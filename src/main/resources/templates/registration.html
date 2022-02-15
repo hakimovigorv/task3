@@ -71,11 +71,11 @@
     </div>
     <div class="text-danger" th:if="${#fields.hasErrors('password')}" th:errors="*{password}"></div>
     <div class="form-floating">
-        <input type="text" class="form-control" id="password" name="password" placeholder="name@example.com"> <br/>
+        <input type="password" class="form-control" id="password" name="password" placeholder="name@example.com"> <br/>
         <label for="password">Password</label>
     </div>
     <div class="form-floating">
-        <input type="text" class="form-control" id="passwordConfirm" name="passwordConfirm" placeholder="name@example.com"> <br/>
+        <input type="password" class="form-control" id="passwordConfirm" name="passwordConfirm" placeholder="name@example.com"> <br/>
         <label for="passwordConfirm">Confirm your password</label>
     </div>
 
